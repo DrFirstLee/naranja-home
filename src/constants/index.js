@@ -33,71 +33,77 @@ export const headerNav = [
 ];
 
 export const introText = {
-    title: "port developer",
-    desc: ["talent is", "found at the end of the", "effort"]
+    title: "Mediana Orange",
+    desc: [
+        "AI가 삶의 동반자로 돕는 AI 기업.",
+        "삶을 편리하고 풍요롭게 만듭니다."
+    ]
 }
+
 
 export const skillText = [
     {
-        title: "꿈을 설계하고 디자인하다.",
-        desc: "나는 공간을 만드는 것을 좋아한다. 어려을 때부터 나만의 공간을 만드는 것을 좋아했고 나만의 다락방을 좋아했다. 단 한 사람이라도 내가 만든 공간 속에서 영감을 받거나 마음이 움직였으면 좋겠다. 나만의 공간을 마음것 만들 수 있다는 건 코딩에 엄청난 매력인거 같다. 그 한구석에 나만의 꿈을 설계하고, 개발을 하며 앞으로도 살고 싶다."
+        title: "메디아나랑하의 비전",
+        desc: "메디아나랑하는 '반쪽 오랜지'라는 뜻으로, AI가 내 삶의 동반자로 도움을 준다는 의미를 가지고 있습니다. 우리는 AI 기술을 통해 사람들의 삶을 더욱 편리하고 풍요롭게 만드는 것을 목표로 하고 있습니다. 기술의 발전을 통해 더 많은 사람들이 혜택을 받을 수 있도록 노력하고 있으며, 항상 고객의 입장에서 생각하고 행동합니다."
     },
     {
-        title: "열심히 할수록 기회는 따른다.",
-        desc: "운이 좋은 사람은 없다. 단지 운을 만들 뿐이다. 운을 만들기 위해서는 내가 좋아하는 일이나 내가 하고 싶은 일에 몰두하면 된다. 몰두 하다보면 길이 보이고 방향이 보이게 된다. 운이란 고된 노동과 노력을 통해 스스로 만들어 내는 것이다."
+        title: "주요 서비스",
+        desc: "메디아나랑하는 다양한 AI 솔루션을 제공합니다. AI 컨설팅 및 맞춤형 솔루션, 빅데이터 분석 및 예측 모델링, 자연어 처리 기술을 이용한 챗봇 및 가상 비서 서비스 등 다양한 분야에서 고객의 니즈를 충족시킵니다. 우리의 서비스는 고객의 의사 결정을 지원하고, 일상 생활에서부터 비즈니스 프로세스까지 폭넓게 활용됩니다."
     },
     {
-        title: "나에게 정직하다.",
-        desc: "정직은 다른 사람보다 나에게 큰 의미를 부여해야 한다. 자신이 정직하지 않으면 진정으로 원하는 일을 열정적으로 밀고 나갈 수 없다. 마음에서 우러나오는 일을 해야 정직해지며 삶을 더 즐길 줄 알게 된다."
+        title: "고객과 함께 성장",
+        desc: "메디아나랑하는 고객과의 신뢰를 바탕으로 함께 성장하는 것을 중요시합니다. 고객의 문제를 해결하고, 더 나은 솔루션을 제공하기 위해 끊임없이 노력합니다. 우리의 AI 기술은 고객의 삶을 더 나은 방향으로 변화시키고, 더 스마트한 세상을 만들어 나가는 데 기여하고 있습니다."
     }
 ]
 
+
 export const siteText = [
     {
-        text: ["make", "site compliant with", "webstandard"],
-        title: "비트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-vite",
-        view: "https://port2023-vite.netlify.app",
+        text: ["AI-based", "ARS customer", "service"],
+        title: "AI 기반의 ARS 고객상담 서비스",
+        code: "https://github.com/mediana-ai/ai-ars-customer-service",
+        view: "https://ai-ars-customer-service.netlify.app",
         info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, Vite",
+            "AI technology for automated response",
+            "production period: three months",
+            "use stack: Node.js, Express, TensorFlow, Twilio",
         ],
     },
     {
-        text: ["make", "site compliant with", "react.js"],
-        title: "리액트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-react",
-        view: "https://port2023-react.netlify.app",
+        text: ["AI-based", "veterinary", "service"],
+        title: "AI 기반의 수의사 서비스",
+        code: "https://github.com/mediana-ai/ai-veterinary-service",
+        view: "https://ai-veterinary-service.netlify.app",
         info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, react",
+            "AI for pet health diagnostics",
+            "production period: six months",
+            "use stack: Python, Flask, PyTorch, OpenCV",
         ],
     },
     {
-        text: ["make", "site compliant with", "vue.js"],
-        title: "뷰를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-vue",
-        view: "https://port2023-vue.netlify.app",
+        text: ["AI-based", "phone English", "service"],
+        title: "AI 기반의 전화영어 서비스",
+        code: "https://github.com/mediana-ai/ai-phone-english-service",
+        view: "https://ai-phone-english-service.netlify.app",
         info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, vue",
+            "AI for English conversation practice",
+            "production period: four months",
+            "use stack: React, Node.js, TensorFlow, WebRTC",
         ],
     },
     {
-        text: ["make", "site compliant with", "next.js"],
-        title: "넥스트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-next",
-        view: "https://port2023-next.netlify.app",
+        text: ["AI-based", "kiosk", "service"],
+        title: "AI 키오스크",
+        code: "https://github.com/mediana-ai/ai-kiosk",
+        view: "https://ai-kiosk.netlify.app",
         info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
+            "AI for interactive kiosk solutions",
+            "production period: five months",
+            "use stack: Vue.js, Node.js, TensorFlow, Docker",
         ],
     },
 ];
+
 
 export const portText = [
     {

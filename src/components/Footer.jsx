@@ -1,6 +1,6 @@
 import React from "react";
 
-import { footerText } from "../constants";
+// import { footerText } from "../constants";
 
 const Footer = () => {
     return (

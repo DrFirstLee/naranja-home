@@ -15,17 +15,17 @@ export const headerNav = [
         url: "#intro"
     },
     {
-        title: "skill",
-        url: "#skill"
+        title: "vision",
+        url: "#vision"
     },
     {
-        title: "site",
-        url: "#site"
+        title: "services",
+        url: "#services"
     },
-    {
-        title: "portfolio",
-        url: "#port"
-    },
+    // {
+    //     title: "portfolio",
+    //     url: "#port"
+    // },
     {
         title: "contact",
         url: "#contact"
@@ -35,7 +35,7 @@ export const headerNav = [
 export const introText = {
     title: "Median Naranja",
     desc: [
-        "AI가 삶의 동반자로 돕는 AI 기업.",
+        "AI기반의 삶의 동반자",
         "삶을 편리하고 풍요롭게 만듭니다."
     ]
 }
@@ -44,7 +44,7 @@ export const introText = {
 export const skillText = [
     {
         title: "메디아나랑하의 비전",
-        desc: "메디아나랑하는 '반쪽 오랜지'라는 뜻으로, AI가 내 삶의 동반자로 도움을 준다는 의미를 가지고 있습니다. 우리는 AI 기술을 통해 사람들의 삶을 더욱 편리하고 풍요롭게 만드는 것을 목표로 하고 있습니다. 기술의 발전을 통해 더 많은 사람들이 혜택을 받을 수 있도록 노력하고 있으며, 항상 고객의 입장에서 생각하고 행동합니다."
+        desc: "메디아나랑하는 '반쪽 오렌지'라는 뜻의 스페인어로, 삶의 동반자를 의미합니다. AI가 내 삶의 동반자로 도움을 준다는 의미를 가지고 있습니다. 우리는 AI 기술을 통해 사람들의 삶을 더욱 편리하고 풍요롭게 만드는 것을 목표로 하고 있습니다. 기술의 발전을 통해 더 많은 사람들이 혜택을 받을 수 있도록 노력하고 있으며, 항상 고객의 입장에서 생각하고 행동합니다."
     },
     {
         title: "주요 서비스",
@@ -66,7 +66,7 @@ export const siteText = [
         info: [
             "AI technology for automated response",
             "production period: three months",
-            "use stack: Node.js, Express, TensorFlow, Twilio",
+            "use stack: Node.js, Express, TensorFlow, langchain",
         ],
     },
     {
@@ -88,7 +88,7 @@ export const siteText = [
         info: [
             "AI for English conversation practice",
             "production period: four months",
-            "use stack: React, Node.js, TensorFlow, WebRTC",
+            "use stack: Node.js, Docker, FastAPI, langchain",
         ],
     },
     {
@@ -201,48 +201,48 @@ export const portText = [
 export const contactText = [
     {
         link: "https://open.kakao.com/o/gM7YLzwf",
-        title: "KAKAO : webstupids",
+        title: "전화번호 : 000 0000 0000 ",
     },
     {
         link: "mailto:webstoryboy@naver.com",
-        title: "mail : webstoryboy@naver.com",
+        title: "이메일  0000@0000.com",
     },
 ];
 
 export const footerText = [
-    {
-        title: "youtube",
-        desc: "유튜브에 오시면 더 많은 강의를 볼 수 있습니다.",
-        link: "https://www.youtube.com/@Webstoryboy",
-    },
-    {
-        title: "github",
-        desc: "깃헙에 오시면 더 많은 소스를 볼 수 있습니다.",
-        link: "https://github.com/webstoryboy",
-    },
-    {
-        title: "blog",
-        desc: "블러그에 오시면 더 많은 정보를 볼 수 있습니다.",
-        link: "https://webstoryboy.co.kr",
-    },
-    {
-        title: "gsap",
-        desc: "GSAP에 오시면 더 많은 강의를 볼 수 있습니다.",
-        link: "https://www.youtube.com/playlist?list=PL4UVBBIc6giL8-6jvrClimg0cFL-Muqiq",
-    },
-    {
-        title: "react",
-        desc: "리액트로 만든 사이트를 같이 만들어 봅니다.",
-        link: "https://github.com/webstoryboy/port2023-react",
-    },
-    {
-        title: "vue",
-        desc: "뷰로 만든 사이트를 같이 만들어 봅니다.",
-        link: "https://github.com/webstoryboy/port2023-vue",
-    },
-    {
-        title: "next",
-        desc: "넥스트로 만든 사이트를 같이 만들어 봅니다.",
-        link: "https://github.com/webstoryboy/port2023-next",
-    },
+    // {
+    //     title: "youtube",
+    //     desc: "유튜브에 오시면 더 많은 강의를 볼 수 있습니다.",
+    //     link: "https://www.youtube.com/@Webstoryboy",
+    // },
+    // {
+    //     title: "github",
+    //     desc: "깃헙에 오시면 더 많은 소스를 볼 수 있습니다.",
+    //     link: "https://github.com/webstoryboy",
+    // },
+    // {
+    //     title: "blog",
+    //     desc: "블러그에 오시면 더 많은 정보를 볼 수 있습니다.",
+    //     link: "https://webstoryboy.co.kr",
+    // },
+    // {
+    //     title: "gsap",
+    //     desc: "GSAP에 오시면 더 많은 강의를 볼 수 있습니다.",
+    //     link: "https://www.youtube.com/playlist?list=PL4UVBBIc6giL8-6jvrClimg0cFL-Muqiq",
+    // },
+    // {
+    //     title: "react",
+    //     desc: "리액트로 만든 사이트를 같이 만들어 봅니다.",
+    //     link: "https://github.com/webstoryboy/port2023-react",
+    // },
+    // {
+    //     title: "vue",
+    //     desc: "뷰로 만든 사이트를 같이 만들어 봅니다.",
+    //     link: "https://github.com/webstoryboy/port2023-vue",
+    // },
+    // {
+    //     title: "next",
+    //     desc: "넥스트로 만든 사이트를 같이 만들어 봅니다.",
+    //     link: "https://github.com/webstoryboy/port2023-next",
+    // },
 ];

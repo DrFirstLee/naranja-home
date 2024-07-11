@@ -7,10 +7,11 @@ const Footer = () => {
         <footer id="footer" role="contentinfo">
             <div className="footer__inner">
                 <h2 className="footer__text">
-                    <div>webstoryboy</div>
-                    <div>@webs</div>
+                    <div>강원도 고성군 간성읍</div>
+                    <div>사업자등록번호 : 686-14-02226</div>
+                    <div>대표이사 : 장정권</div>
                 </h2>
-                <div className="footer__info">
+                {/* <div className="footer__info">
                     <div className="left">
                         <div className="title">
                             <a href="/">sign up</a>
@@ -28,11 +29,12 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                </div>
+                </div> */}
                 <div className="footer__right">
-                    &copy; 2023 webstoryboy<br />
-                    이 사이트는 리액트를 이용하여 제작하였습니다.
+                    &copy; 2024 주식회사 메디아나랑하<br />
+                    
                 </div>
+  
             </div>
         </footer>
     )

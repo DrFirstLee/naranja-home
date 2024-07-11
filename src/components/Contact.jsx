@@ -28,11 +28,12 @@ const Contact = () => {
                                     {contact.title}
                                 </a>
                             </div>
+                       
                         ))}
                        
                     </div>
                 </div>
-                <div className="contact__lines" aria-hidden="true">
+                {/* <div className="contact__lines" aria-hidden="true">
                     <span className="line"></span>
                     <span className="line"></span>
                     <span className="line"></span>
@@ -40,7 +41,7 @@ const Contact = () => {
                     <span className="line"></span>
                     <span className="line"></span>
                     <span className="line"></span>
-                </div>
+                </div> */}
             </div>
         </section>
     )

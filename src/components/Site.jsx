@@ -4,10 +4,10 @@ import { siteText } from "../constants";
 
 const Site = () => {
     return (
-        <section id="site">
+        <section id="services">
             <div className="site__inner">
                 <h2 className="site__title">
-                    Site Coding <em>나의 작업물</em>
+                    Main Services <em>주요 서비스</em>
                 </h2>
                 <div className="site__wrap">
                     {siteText.map((site, key) => (

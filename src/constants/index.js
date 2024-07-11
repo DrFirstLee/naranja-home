@@ -33,7 +33,7 @@ export const headerNav = [
 ];
 
 export const introText = {
-    title: "Mediana Orange",
+    title: "Median Naranja",
     desc: [
         "AI가 삶의 동반자로 돕는 AI 기업.",
         "삶을 편리하고 풍요롭게 만듭니다."

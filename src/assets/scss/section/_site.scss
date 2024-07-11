@@ -41,7 +41,7 @@
             left: 0;
 
             &.s1 {
-                background-color: var(--subBg100);
+                background-color: var(--subBg100_orange);
                 top: 180px;
 
                 @media (max-width: 800px){ 
@@ -49,7 +49,7 @@
                 }
             }
             &.s2 {
-                background-color: var(--subBg200);
+                background-color: var(--subBg200_orange);
                 top: 200px;
 
                 @media (max-width: 800px){ 
@@ -57,7 +57,7 @@
                 }
             }
             &.s3 {
-                background-color: var(--subBg300);
+                background-color: var(--subBg300_orange);
                 top: 220px;
 
                 @media (max-width: 800px){ 
@@ -65,7 +65,7 @@
                 }
             }
             &.s4 {
-                background-color: var(--subBg400);
+                background-color: var(--subBg400_orange);
                 top: 240px;
 
                 @media (max-width: 800px){ 

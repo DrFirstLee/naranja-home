@@ -30,7 +30,7 @@ const Intro = () => {
                         <img src={about} alt="어바웃미" />
                     </div>
                 </div>
-                <div className="intro__lines bottom" aria-hidden="true">
+                {/* <div className="intro__lines bottom" aria-hidden="true">
                     <span className="line"></span>
                     <span className="line"></span>
                     <span className="line"></span>
@@ -38,7 +38,7 @@ const Intro = () => {
                     <span className="line"></span>
                     <span className="line"></span>
                     <span className="line"></span>
-                </div>
+                </div> */}
             </div>
         </section>
     )
